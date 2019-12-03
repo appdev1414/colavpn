@@ -17,8 +17,6 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"Paris","country":"France","image":"france","ip":"51.38.166.100","active":"true","signal":"a"},
-    {"id":1, "file":0, "city":"Paris","country":"France","image":"france","ip":"51.38.166.100","active":"true","signal":"b"},
-    {"id":1, "file":0, "city":"Paris","country":"France","image":"france","ip":"51.38.166.100","active":"true","signal":"a"},
     {"id":1, "file":0, "city":"Paris","country":"France","image":"france","ip":"51.38.166.100","active":"true","signal":"b"}
   ]
 }

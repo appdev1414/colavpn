@@ -113,7 +113,12 @@ f4c597ff5237dfc1284f8385205f8b31
 dev tun
 proto udp
 remote 188.165.159.44 1194
-resolv-retry infinite
+remote 188.165.159.45 1194
+remote 188.165.159.46 1194
+remote 188.165.159.47 1194
+remote 137.74.8.117 1194
+resolv-retry 15
+remote-random
 nobind
 persist-key
 persist-tun

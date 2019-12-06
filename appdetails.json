@@ -11,7 +11,7 @@
     {"id":6, "app":"com.mytest.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Paris","country":"France","image":"france","ip":"51.38.166.100","active":"true","signal":"a"},
-    {"id":1, "file":0, "city":"Paris","country":"France","image":"france","ip":"51.38.166.100","active":"true","signal":"b"}
+    {"id":0, "file":0, "city":"All Global","country":"All Global","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":1, "file":0, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"b"}
   ]
 }

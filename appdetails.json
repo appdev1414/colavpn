@@ -12,12 +12,12 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"All Global","country":"All Global","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
-    {"id":1, "file":1, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"},
-    {"id":2, "file":2, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"},
-    {"id":3, "file":3, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"},
-    {"id":4, "file":4, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"},
-    {"id":5, "file":5, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"},
-    {"id":6, "file":6, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"},
-    {"id":7, "file":7, "city":"Belgium","country":"Belgium","image":"Belgium","ip":"188.165.159.44","active":"true","signal":"a"}
+    {"id":1, "file":1, "city":"Belgium","country":"Belgium","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":2, "file":2, "city":"Czech","country":"Czech","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":3, "file":3, "city":"Finland","country":"Finland","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":4, "file":4, "city":"France","country":"France","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":5, "file":5, "city":"Germany","country":"Germany","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":6, "file":6, "city":"Ireland","country":"Ireland","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":7, "file":7, "city":"Spain","country":"Belgium","image":"all","ip":"0.0.0.0","active":"true","signal":"a"}
   ]
 }

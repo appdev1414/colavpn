@@ -1,7 +1,7 @@
 {
 "ovpn_file": [
         {
-            "id": 0,
+            "id": 4,
             "file": "client
 dev tun
 proto tcp
@@ -151,7 +151,7 @@ TTBQ8Y7BkCPrZ8dGMHe4GQY5J2huFSA=
 </key>"
         },
         {
-            "id": 1,
+            "id": 5,
             "file": "client
 dev tun
 proto tcp
@@ -301,7 +301,7 @@ TTBQ8Y7BkCPrZ8dGMHe4GQY5J2huFSA=
 </key>"
         },
         {
-            "id": 2,
+            "id": 6,
             "file": "client
 dev tun
 proto tcp

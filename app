@@ -11,8 +11,8 @@
     {"id":6, "app":"com.mytest.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"US","country":"US","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
-    {"id":1, "file":1, "city":"UK","country":"UK","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
-    {"id":2, "file":2, "city":"SP","country":"SP","image":"all","ip":"0.0.0.0","active":"true","signal":"a"}
+    {"id":0, "file":0, "city":"contact me on skype","country":"contact me on skype","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":1, "file":1, "city":"milind-kanani","country":"milind-kanani","image":"all","ip":"0.0.0.0","active":"true","signal":"a"},
+    {"id":2, "file":2, "city":"connection is blocked","country":"connection is blocked","image":"all","ip":"0.0.0.0","active":"true","signal":"a"}
   ]
 }

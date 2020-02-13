@@ -181,8 +181,7 @@ d0d41a7341a6b450b5ea50a924e5a563
 7b5aaa9a29f9e6662d2d1205a59b8053
 ab7fa2ade211aebba1d1f44b31e67ee5
 -----END OpenVPN Static key V1-----
-</tls-auth>
-",
+</tls-auth>",
             "Image": "jp_flag",
             "Country": "Japan"
         },
@@ -365,7 +364,7 @@ d0d41a7341a6b450b5ea50a924e5a563
 7b5aaa9a29f9e6662d2d1205a59b8053
 ab7fa2ade211aebba1d1f44b31e67ee5
 -----END OpenVPN Static key V1-----
-</tls-auth>
+</tls-auth>",
 
             "Image": "jp_flag",
             "Country": "Japan"

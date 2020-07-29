@@ -1,6 +1,5 @@
 {
     "status": "success",
-    "ads": "false",
     "ovpn_file": [
         {
             "id": "1",
@@ -100,6 +99,5 @@ SYy2FlnfMeypjO0VZYAwOVzSdw==
             "Country": "USA564streaming"
         }
        
-    ],
-    "sessionhash": "b99f966966d69b7ea779f5b93efa7399"
+    ]
 }

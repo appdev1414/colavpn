@@ -11,9 +11,6 @@ resolv-retry infinite
 nobind
 persist-key
 persist-tun
-ca ca.crt
-cert cliente.crt
-key cliente.key
 remote-cert-tls server
 cipher AES-128-CBC
 auth SHA1

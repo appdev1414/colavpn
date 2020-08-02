@@ -5,18 +5,23 @@
             "id": "1",
             "file": "client
 dev tun
-proto tcp
-remote 25982c614ffdcf9b.sn.mynetname.net 1194
-resolv-retry infinite
-nobind
+proto tcp-client
 persist-key
 persist-tun
+tls-client
 remote-cert-tls server
-cipher AES-128-CBC
+verb 4
+auth-nocache
+mute 10
+remote 25982c614ffdcf9b.sn.mynetname.net
+port 1194
 auth SHA1
-auth-user-pass
+cipher AES-128-CBC
 redirect-gateway def1
-verb 3
+auth-user-pass
+ca [inline]
+cert [inline]
+key [inline]
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIDSzCCAjOgAwIBAgIIDWXyM8iCZ0YwDQYJKoZIhvcNAQELBQAwDTELMAkGA1UE
@@ -38,6 +43,7 @@ GltoyuPsvoj2RVbtvRv0Ns/a734M8t/RElSPkBb+5OqkvI2WuEFz2HmM3KQxrt0u
 t0AUx/xNaWEfLMVSE2LQ+bxhm5JwdNj1dqjyV22ihpK1zzOew/6Gxm8ufbDVC/KG
 fOncmLqQH93gkvUS2aywYkYkt8htaBocD7X533viTQ==
 -----END CERTIFICATE-----
+
 </ca>
 <cert>
 -----BEGIN CERTIFICATE-----
@@ -59,38 +65,37 @@ x4fsU8uM4UNQSBN0+QLht/4zxeAmUTVMw0PMh8lWIvgLOGloHVjlTbvQ99fVqUdJ
 urL00aK2jkZbQARDtodSEN8ATbGN99NsH29/s0qgKU49QdDJu5ppdoZ8e8Lgc41N
 kzSluMQ+tac7tqXDDOMo5dpzKTUntnKKAarSSDPpohYLwQ==
 -----END CERTIFICATE-----
+
 </cert>
 <key>
------BEGIN ENCRYPTED PRIVATE KEY-----
-MIIFHzBJBgkqhkiG9w0BBQ0wPDAbBgkqhkiG9w0BBQwwDgQIkcEw5NHqS6ECAggA
-MB0GCWCGSAFlAwQBKgQQApv4dT6ZMsbbUi77eoAD3gSCBNBrwCezBweXDPC0wS4m
-I+BdUM6lZt4AWbqKawumXFeX2HpyJdawZXN0IHVFpJ3P3RC2ovmo33K+z4/sEdAr
-fCj+mQl64FKW844vF0zPEEdKK/0npjOdhJVPArZ/tkGF65rTrF5Q83cbXrsr8GV9
-Kk6uxKVpR+Kelm0T+N5gjfsEWaHjY4ytNCRxc+G6H33GRMNJNLAo6NauKTz4qQ4j
-wvez9AcbYEeF5AzgOEmzbXE+2HinB6w3FRXU/j7RxJrTnJl+R6/wBchkiFdOI2Pn
-rkCFMZyWaKmZfrnjTW/n22mDQ16+OVS+jhDyUAJf/32k+GP/aAHSeyXqTFWU9FY5
-bZG+3X0OcIz6RrJUU9yjxVssNA358DNemFQnNFrkrYx1fgw7yduOYiTk9xj72wbq
-ig3pXOw5KKUZogSB7NrBRPkt79+x67vZtuYyGXs47X7/pE6dnmKifkzAbF9x5yqJ
-S02lsk/sQDQWXWmhROlbmKohrV9jatsxFbH3KLd/Y4Oa5iLtNpxDQYdabffN779P
-L6aiwTgDdE/FMjLBDKoSd3dIVwfFvgu3kPeocUl0t+cb4wq5SUDzZGQQWyMnSaEo
-iN51zhPzRFhOHX85XO+65NFJVGDREfBCp00ZFfeLqkCDplLhCf7EPWkTBKTtUfYY
-ni9tQaCsNgb30dqozNtp+j/Tb8FVZSxLHYeXlFHFYZfxzZsRhQlL4DBlpKZ7dABF
-68pgqRhzkQbaYy/7DPE1ySRuLGFP4a2mfSPRNLGmrS8BjFGk1CewgwonRB6QMlZd
-GtCY7JVITAXEalARsEHLVBvlazpDZ2ZnOfDN94HzBB6M2BkN8TPB1VSRrUU9sdOa
-al0rBcXgnrmVgeuYJdX0mWS5llzVl702bnCsw99aCV2GZ9ytK7G3k4q9B807WvKV
-PkUGnP4c9ZWLQ0krMvpLS2Kac111+52eLuWdX5NiLRtM8XFD/syJ8k6MWG0QFvji
-IXObnrCLU6jsk4vvXGZX9uL2WtgslIKF1viObwFO2OiZFfnlCK4e1eLVpQLC1YFZ
-zS6XaTqy63/SDP5ILGEGWinNu5qzDsyKhx4dwwRIyUY6NG2IO2nQhLY7EDs0zquN
-wBOWinK3EUDgcorW5Wu3Rpp68NegXfZqiPDEKL4RfraGlQS27bU5dnPP6Vy943Ai
-1waYh8pkngidjgKZNwlEbmS2A3ailRRXW3p69tjln6vGDh81R+8+G99+ixcuVmbB
-QZcMbwxnS1ZcXsvbWYpSJjlydhd342KmxjRe2ltM9euk3Qj8muC64hJ+sFL/jk1/
-vfLKW/xP1DU46zoUSuhPIuQEWcjpuSFN3/3N1U4Py5xhpcHY8LsoNExWYHaqfODA
-RFbcvxr3LmCkXXZzaF7evxLQ4AOEWi1ZoAgKFIHeuCnkcPi1xp0uzWlCY/aq+J/j
-oTQUysFT6wpV/2lm9PRkVPYjXw1jHckv9EHc3jlAllH0wfcy1R+DdDVd6U3HLVfZ
-EbNgLWUODxOzV0zsc9TSSX3TYM1iZlZaZatl1GQtgjeb7QlYuPcO47ofA/OcpXSs
-Aob7ThbtRSaYxMzAIXCr8PZpjpIhGXqxoHq58wwHhY7TWhR07H0uC0vMLkc1NOIE
-SYy2FlnfMeypjO0VZYAwOVzSdw==
------END ENCRYPTED PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAtZBIBLh/Gg0Z48fGPaKZoQ5QMbWiMxviNv1iCdl77uwI7+9g
+GC7hRq0nj8xsTsVrtytOF9UhVBzjT619ClibK3vbA5jQxYw87vMCVVOjJ+Bcj/6J
+wEh2E91N9h1GsYKzHFtgPggrAnIZHT5J0CarIHBpI2tesVXvvFrHLEUwSKnXNnNT
+az7blo7gR7smI2hw91VZU1BJNraOsUfew92qd7IqPqP35WOcFhRFsM1JIS3BM3Ze
+Px+5Ps/jYmsIS3v+QwLQ4byu2ImocEBrYQZ2HbnlYadVpwIz6hNYX6Vr3iddjsO1
+a1gGLUH84cRzQPjfp1GSMpoWpj+Zh4hiBo796wIDAQABAoIBAGfpf45UGUpLnTmk
+KG02Fj769iK9FWuy1bErK2T/t9Jx/Ft14MV2bzAIAdBm6sXab1+RxUwWitCdB+ue
+GyZEt+oXJK3WVAX70RPguMEk8QftfIxc3XHTBuEvk2L8Nm15pBDiqx5VhmgL7Ruz
+foNG3kHelA3VcYiE6oQeYEeSAaRTuTJLN0szkjL005yJIAlH767YgN3Gjiabdnr5
+QS1hrIYFdKOEmvdEt/R4yuqHIQUFlXQ/b9BKqdWneUAsC2EwcTxYrMFzRik32o7H
+5WJzko+Kmm1DZhCJqJjpa4LzNIYYBCNKo74zNJvpgk4X8lyZLiA9lF40JRdCgySS
+ou9BuQECgYEA2YroGzk3vlkbByho07IM5Wc2BkKSWvlwfH7pb7nQBRdxqSrIBbzf
+o/7Dcq9Dcm9FZRUY0Yg3Q9pDSKNISv4G9PfbSdo3dc2dyzrekG1WgAWYSSw62Idf
+6zmcf75+Xec1CsVZpupA1bDFahOrjTfO/lnzNzx0/BLMs3gjqs0PRwsCgYEA1akc
+eflU6XzaC4KqECPSyeYsYFFr611lUrglEtqHxudLtOpMfYepPXRTGCnnBP8Dx8Da
+nUm3DoxfSuTiSQUVd4Buv3IaSb9Wv5ivm2EoPe3HnPlZdvQ6O5E+4GhgJOpwaSag
+sTYoLbwjQdxcOCcrm9bUkFYMnqlYyFzxZnur8KECgYBRSrEVizojbVTGRfl2MjDT
+gNAVYsciK9g3DY3Z7Eupu2sD1jLMwhmoRMlwj8Haf24lKc8ObaKJPoSqHiojq+2Z
+mQ1e+aaD5QQ0L5l/yvvp9y1DGr4ar+vOEMdEjUDXglC1561qzFrR/66lxxfyO4qk
+TaSvXW4xzCymXByn9NzipQKBgQC73cOtOF/CIcazokOYh3c7kcjpNA6ZWHjUIBhx
+GHeUnCGERRPWuKdF4veBYq7ARN71EAzpijyMbT8I4nJZ1D+I4QQAD/svZy+GrmGS
+VP6GXYJL8zAIGTzuzYqk1QHc08rdmlpnF4CCnk++BF2N/lso3t/uvcrA45SuMJMO
+EqYfoQKBgFxJv8GVxfzy5IV5jWegSEBhQL/T7wUVUHyFPweiSS16TCxHGfWHMtYX
+lrcPFJ8xirfaLagsj55HhrdfBYhj+mDbJ2jHp9N08tD0QBvEio6EkhNIOlUKh7Ci
+slnuuiN7no+OzHnMUvOfWH7RZxYks87DEbuPqk95bwDGiBf/+gUs
+-----END RSA PRIVATE KEY-----
+
 </key>",
             "Image": "us_flag",
             "Country": "USA564streaming"

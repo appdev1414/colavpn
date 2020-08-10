@@ -2,91 +2,91 @@
     "status": "success",
     "ovpn_file": [
         {
-            "id": "1",
+            "id": 1,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "us_flag",
             "Country": "United States"
         },{
-            "id": "2",
+            "id": 2,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "ca_flag",
             "Country": "Canadá"
         },{
-            "id": "3",
+            "id": 3,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "fr_flag",
             "Country": "France"
         },{
-            "id": "4",
+            "id": 4,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "de_flag",
             "Country": "Germany"
         },{
-            "id": "5",
+            "id": 5,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "it_flag",
             "Country": "Itali"
         },{
-            "id": "6",
+            "id": 6,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "in_flag",
             "Country": "India"
         },{
-	    "id": "7",
+	    "id": 7,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "jp_flag",
             "Country": "Japan"
         },{
-            "id": "8",
+            "id": 8,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "mx_flag",
             "Country": "Mexico"
         },{
-	    "id": "9",
+	    "id": 9,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "es_flag",
             "Country": "Spain - Madrid"
         },{
-	    "id": "10",
+	    "id": 10,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "gb_flag",
             "Country": "United Kingdom"
         },{
-	    "id": "11",
+	    "id": 11,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "ru_flag",
             "Country": "Russia"
         },{
-	    "id": "12",
+	    "id": 12,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
             "Image": "sg_flag",
             "Country": "Singapore"
         },{
-	    "id": "13",
+	    "id": 13,
             "file": "",
             "Username": "milind",
             "password": "milind1564564",
